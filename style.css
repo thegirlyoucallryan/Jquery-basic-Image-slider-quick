@@ -1,11 +1,11 @@
 body {
-  color: white;
-  background: black;
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a {
-  color: black;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
@@ -15,11 +15,8 @@ h1 {
 
 .container {
   width: 540px;
-  margin: 40px auto;
+  margin: 30px auto;
   overflow: auto;
-  box-shadow: 22px 41px 107px -27px rgba(151, 151, 151, 0.75);
-  -webkit-box-shadow: 22px 41px 107px -27px rgba(151, 151, 151, 0.75);
-  -moz-box-shadow: 22px 41px 107px -27px rgba(151, 151, 151, 0.75);
 }
 
 .slider-inner {
@@ -35,7 +32,7 @@ h1 {
   display: none;
   width: 500px;
   height: 300px;
-  border: black solid 5px;
+  border: rgb(255, 255, 255) solid 5px;
 }
 
 .slider-inner img.active {
@@ -51,12 +48,13 @@ h1 {
 
 .prev {
   position: absolute;
-  margin-right: -45px;
+  float: right;
+  margin-left: -28px;
   z-index: 100;
 }
 
 .next {
   position: absolute;
-  margin-left: -45px;
+  margin-left: -40px;
   z-index: 100;
 }
